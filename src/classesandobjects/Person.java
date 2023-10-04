@@ -4,10 +4,18 @@
  */
 package classesandobjects;
 
+import shapes.Triangle;
+
+
+
 /**
  *
  * @author Lecturer
  */
 public class Person {
-    
+    int age;
+    String name;
+    double height;
+    boolean isProgrammer = true;
+    Triangle favTriangle; // favourite triangle
 }
