@@ -16,6 +16,6 @@ public class Person {
     int age;
     String name;
     double height;
-    boolean isProgrammer = true;
-    Triangle favTriangle; // favourite triangle
+    private boolean isProgrammer = true;
+    private Triangle favTriangle; // favourite triangle
 }

@@ -6,6 +6,8 @@ package classesandobjects;
 
 import shapes.Triangle;
 
+
+
 /**
  *
  * @author Lecturer
@@ -43,7 +45,7 @@ public class ClassesAndObjects {
         sideLengths[16] = 3;
         
         Person sam = new Person();
-        sam.favTriangle = tri5;
+//        sam.favTriangle = tri5;
     }
     
 }
