@@ -8,7 +8,7 @@ package shapes;
  *
  * @author Lecturer
  */
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Shape2D {
     private double height = 5.0;
     private double width = 6.2;
 
@@ -21,7 +21,10 @@ public class Rectangle extends Shape {
     public Rectangle() {
     }
     
-    
+    @Override
+    public double calculateAngles() {
+        return 90;
+    }
     
     public double getHeight() {
         return height;
@@ -31,6 +34,7 @@ public class Rectangle extends Shape {
         return width;
     }
     
+    @Override
     public double getArea() {
         return width * height;
     }
