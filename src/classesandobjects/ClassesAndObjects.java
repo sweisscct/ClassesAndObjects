@@ -50,12 +50,20 @@ public class ClassesAndObjects {
         
         Person sam = new Person();
 //        sam.favTriangle = tri5;
-
+        System.out.println("--- Rectangles ---");
         Rectangle rect1 = new Rectangle();
+        Rectangle rect2 = new Rectangle(true, "Blue", 5, 6);
         System.out.println(rect1.getArea());
 //        Shape shape1 = new Shape();
 System.out.println(rect1.getColour());
         System.out.println(tri5.getColour());
+        
+        Person p4 = new Person("Sam", 100);
+        Person p3 = new Person(42, "Ken");
+        Person p1 = new Person();
+        Person p2 = new Person(5);
+        
+//        Shape s1 = new Shape();
         
     }
     

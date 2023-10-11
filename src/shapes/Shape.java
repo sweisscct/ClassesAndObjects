@@ -12,7 +12,16 @@ public abstract class Shape {
     private boolean isFilled = true;
     protected String colour = "Yellow";
     
-
+    public Shape() {
+        System.out.println("Shape 1");
+    }
+    
+    public Shape(boolean isFilled, String colour) {
+        this.isFilled = isFilled;
+        this.colour = colour;
+        System.out.println("Shape 2");
+    }
+    
     public boolean isIsFilled() {
         return isFilled;
     }
