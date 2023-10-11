@@ -20,7 +20,9 @@ public class ClassesAndObjects {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Triangle tri1 = new Triangle();
+        System.out.println(tri1);
         Triangle tri2 = new Triangle();
         Triangle tri3 = new Triangle();
         Triangle tri4 = new Triangle();
@@ -54,6 +56,7 @@ public class ClassesAndObjects {
 //        Shape shape1 = new Shape();
 System.out.println(rect1.getColour());
         System.out.println(tri5.getColour());
+        
     }
     
 }

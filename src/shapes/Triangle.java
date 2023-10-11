@@ -54,4 +54,16 @@ public class Triangle extends Shape {
             this.colour = colour;
         }
     }
+    
+    @Override
+    public String toString() {
+        return "Hello! I am a triangle with the colour of: " + colour;
+    }
+    
+    /*
+    Exercise: Make a Circle class
+    give it a radius attribute.
+    
+    Exercise 2: Make a Square class.
+    */
 }
