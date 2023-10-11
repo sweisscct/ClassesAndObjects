@@ -15,7 +15,7 @@ public class Rectangle extends Shape {
     public double getHeight() {
         return height;
     }
-
+    
     public double getWidth() {
         return width;
     }
